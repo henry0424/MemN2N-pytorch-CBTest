@@ -1,0 +1,13 @@
+*.swp
+__pycache__
+
+pip-selfcheck.json
+question.txt
+
+model/
+bin/
+
+include/
+lib/
+share/
+.vscode/

@@ -49,18 +49,18 @@ MemN2N-pytorch-CBTest$ source bin/activate
 $ python -W ignore ./memn2n/train.py --cuda
 ```
 ![Train](https://i.imgur.com/li1f6px.png)
-> --cuda
---dataset_dir
---task
---max_hops
---batch_size
---max_epochs
---lr
---decay_interval
---decay_ratio
---max_clip
---word_type
---perc_dict
+> --cuda  
+--dataset_dir  
+--task  
+--max_hops  
+--batch_size  
+--max_epochs  
+--lr  
+--decay_interval  
+--decay_ratio  
+--max_clip  
+--word_type  
+--perc_dict  
 
 
 
@@ -68,10 +68,10 @@ $ python -W ignore ./memn2n/train.py --cuda
 ```
 (MemN2N-pytorch-CBTest)MemN2N-pytorch-CBTest$ python memn2n/question_generator.py --number=10 --file=./CBTest/data/cbtest_V_test_2500ex.txt --random=1 --remove=1
 ```
->--number 問題數目
->--file 抽取檔案
->--random 隨機抽取
->--remove 移除答案
+>--number 問題數目  
+>--file 抽取檔案  
+>--random 隨機抽取  
+>--remove 移除答案  
 
 ## Evaluation / Prediction
 ```

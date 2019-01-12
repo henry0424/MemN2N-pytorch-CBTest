@@ -2,8 +2,8 @@
 
 ### Reference
 > Reference AI model
->> [End-To-End Memory Networks](https://arxiv.org/abs/1503.08895)
->> Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, Rob Fergus
+>> [End-To-End Memory Networks](https://arxiv.org/abs/1503.08895)  
+>> Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, Rob Fergus  
 >> ![End-To-End Memory Networks](https://i.imgur.com/YBBcbNy.png)
 > 
 > Reference repositories
@@ -17,7 +17,6 @@
 ```
 $ git clone https://github.com/henry0424/MemN2N-pytorch-CBTest.git
 $ cd MemN2N-pytorch-CBTest
-MemN2N-pytorch-CBTest$
 ```
 
 ### Dataset
@@ -28,6 +27,7 @@ MemN2N-pytorch-CBTest$ tar -xzf CBTest.tgz
 
 ### Create Virtualenv
 ```
+MemN2N-pytorch-CBTest$ pip3 install -U pip virtualenv
 MemN2N-pytorch-CBTest$ virtualenv --system-site-packages -p python3 .
 MemN2N-pytorch-CBTest$ source bin/activate
 ```

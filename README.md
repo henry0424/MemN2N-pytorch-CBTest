@@ -10,6 +10,9 @@
 >> https://github.com/nmhkahn/MemN2N-pytorch
 >> https://github.com/domluna/memn2n
 
+
+---
+
 ### Clone Project
 ```
 $ git clone https://github.com/henry0424/MemN2N-pytorch-CBTest.git
@@ -35,6 +38,10 @@ MemN2N-pytorch-CBTest$ source bin/activate
 (MemN2N-pytorch-CBTest)MemN2N-pytorch-CBTest$ python -c "import torch; print(torch.__version__)"
 ```
 ![Verify the install](https://i.imgur.com/RR4lhhI.png)
+
+
+
+---
 
 
 ### Train
@@ -71,3 +78,19 @@ $ python -W ignore ./memn2n/train.py --cuda
 (MemN2N-pytorch-CBTest)MemN2N-pytorch-CBTest$ python -W ignore ./memn2n/eval.py --cuda --check_point_path=./CBTest/data_epoch_25 --file=./Question.txt
 ```
 ![](https://i.imgur.com/ocWDsNf.png)
+
+
+---
+
+## Project structure / description
+
+| File          | description                                        |
+| ------------- | -------------------------------------------------- |
+| data_utils.py | define how to vectorize(tokenize) words/sentences. |
+| dataset.py    | define how to load bAbi dataset                    |
+| model.py      | define memeory network model                       |
+| train.py      | define main process                                |
+| trainer.py    | define train process                               |
+| evaluation.py | define evaluation function                         |
+| eval.py       | define evaluation process                          |
+| question_generator.py | define question file                       |

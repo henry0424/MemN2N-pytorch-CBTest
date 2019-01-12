@@ -7,7 +7,7 @@
 >> ![End-To-End Memory Networks](https://i.imgur.com/YBBcbNy.png)
 > 
 > Reference repositories
->> https://github.com/nmhkahn/MemN2N-pytorch
+>> https://github.com/nmhkahn/MemN2N-pytorch  
 >> https://github.com/domluna/memn2n
 
 

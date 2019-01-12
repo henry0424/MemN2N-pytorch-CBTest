@@ -37,7 +37,7 @@ MemN2N-pytorch-CBTest$ source bin/activate
 (MemN2N-pytorch-CBTest)MemN2N-pytorch-CBTest$ pip3 install torch torchvision
 (MemN2N-pytorch-CBTest)MemN2N-pytorch-CBTest$ python -c "import torch; print(torch.__version__)"
 ```
-![Verify the install](https://i.imgur.com/RR4lhhI.png)
+![Verify the install](https://i.imgur.com/RR4lhhI.png =600x)
 
 
 
@@ -48,7 +48,7 @@ MemN2N-pytorch-CBTest$ source bin/activate
 ```
 $ python -W ignore ./memn2n/train.py --cuda
 ```
-![](https://i.imgur.com/li1f6px.png)
+![](https://i.imgur.com/li1f6px.png =600x)
 > --cuda
 --dataset_dir
 --task
@@ -77,7 +77,7 @@ $ python -W ignore ./memn2n/train.py --cuda
 ```
 (MemN2N-pytorch-CBTest)MemN2N-pytorch-CBTest$ python -W ignore ./memn2n/eval.py --cuda --check_point_path=./CBTest/data_epoch_25 --file=./Question.txt
 ```
-![](https://i.imgur.com/ocWDsNf.png)
+![](https://i.imgur.com/ocWDsNf.png =600x)
 
 
 ---

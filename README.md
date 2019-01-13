@@ -46,7 +46,7 @@ MemN2N-pytorch-CBTest$ source bin/activate
 
 ### Train
 ```
-$ python -W ignore ./memn2n/train.py --cuda
+(MemN2N-pytorch-CBTest)MemN2N-pytorch-CBTest$ python -W ignore ./memn2n/train.py --cuda
 ```
 ![Train](https://i.imgur.com/li1f6px.png)
 > --cuda  

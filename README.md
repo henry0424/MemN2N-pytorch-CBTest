@@ -49,6 +49,8 @@ MemN2N-pytorch-CBTest$ source bin/activate
 (MemN2N-pytorch-CBTest)MemN2N-pytorch-CBTest$ python -W ignore ./memn2n/train.py --cuda
 ```
 ![Train](https://i.imgur.com/li1f6px.png)
+![Train 20 Epoch](https://i.imgur.com/D2bwwHy.png)
+
 > --cuda  
 --dataset_dir  
 --task  
